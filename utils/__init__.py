@@ -1,0 +1,1 @@
+"""SW Reader Helper package."""

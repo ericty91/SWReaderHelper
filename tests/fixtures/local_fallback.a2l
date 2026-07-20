@@ -1,0 +1,14 @@
+/begin FUNCTION
+OutFn
+"Output owner"
+/begin OUT_MEASUREMENT
+Both_MP OutOnly_MP
+/end OUT_MEASUREMENT
+/end FUNCTION
+/begin FUNCTION
+LocalFn
+"Local owner"
+/begin LOC_MEASUREMENT
+Both_MP LocalOnly_MP
+/end LOC_MEASUREMENT
+/end FUNCTION

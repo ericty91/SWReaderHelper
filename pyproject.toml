@@ -1,0 +1,4 @@
+[project]
+name="sw-reader-helper"
+version="9.0.0"
+requires-python=">=3.12"
