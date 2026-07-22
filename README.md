@@ -1,3 +1,105 @@
+```text
+|   application.log
+|   main.py
+|   main.spec
+|   pyproject.toml
+|   README.md
+|   requirements.txt
+|   
++---build
+|   \---main
+|       |   Analysis-00.toc
+|       |   base_library.zip
+|       |   EXE-00.toc
+|       |   main.pkg
+|       |   PKG-00.toc
+|       |   PYZ-00.pyz
+|       |   PYZ-00.toc
+|       |   warn-main.txt
+|       |   xref-main.html
+|       |   
+|       \---localpycs
+|               pyimod01_archive.pyc
+|               pyimod02_importers.pyc
+|               pyimod03_ctypes.pyc
+|               pyimod04_pywin32.pyc
+|               struct.pyc
+|               
++---core
+|   |   application.py
+|   |   background_worker.py
+|   |   clipboard_monitor.py
+|   |   search_engine.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           application.cpython-314.pyc
+|           background_worker.cpython-314.pyc
+|           clipboard_monitor.cpython-314.pyc
+|           search_engine.cpython-314.pyc
+|           __init__.cpython-314.pyc
+|           
++---dist
+|       main.exe
+|       
++---gui
+|   |   dialogs.py
+|   |   main_window.py
+|   |   tray_icon.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           dialogs.cpython-314.pyc
+|           main_window.cpython-314.pyc
+|           tray_icon.cpython-314.pyc
+|           __init__.cpython-314.pyc
+|           
++---models
+|   |   domain.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           domain.cpython-314.pyc
+|           __init__.cpython-314.pyc
+|           
++---parser
+|   |   a2l_parser.py
+|   |   block_reader.py
+|   |   function_index.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           a2l_parser.cpython-314.pyc
+|           block_reader.cpython-314.pyc
+|           function_index.cpython-314.pyc
+|           __init__.cpython-314.pyc
+|           
++---tests
+|   |   test_local_fallback.py
+|   |   test_popup.py
+|   |   test_real_file.py
+|   |   test_regex.py
+|   |   __init__.py
+|   |   
+|   \---fixtures
+|           local_fallback.a2l
+|           
+\---utils
+    |   category_regex.py
+    |   exceptions.py
+    |   logger.py
+    |   popup_manager.py
+    |   validation.py
+    |   __init__.py
+    |   
+    \---__pycache__
+            category_regex.cpython-314.pyc
+            exceptions.cpython-314.pyc
+            logger.cpython-314.pyc
+            popup_manager.cpython-314.pyc
+            validation.cpython-314.pyc
+            __init__.cpython-314.pyc
+```
 # SWReaderHelper
 Helper tool for engine software documentation reading.
 
